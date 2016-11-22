@@ -1,0 +1,42 @@
+{
+  "name": "@scott113341/styletron-cycledom",
+  "version": "0.0.0",
+  "description": "A Styletron wrapper for Cycle DOM.",
+  "author": "Scott Hardy",
+  "license": "MIT",
+  "repository": "git@github.com:scott113341/styletron-cycledom.git",
+  "homepage": "https://github.com/scott113341/styletron-cycledom",
+  "bugs": "https://github.com/scott113341/styletron-cycledom/issues",
+  "keywords": [],
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "build": "shx rm -rf lib/ && shx mkdir lib/ && babel --copy-files --out-dir lib/ src/",
+    "lint": "semistandard --fix",
+    "test": "npm run build && node lib/test/index.js",
+    "test:ci": "node lib/test/index.js && semistandard"
+  },
+  "dependencies": {
+    "@cycle/dom": "14.1.0",
+    "styletron-client": "2.0.1",
+    "styletron-utils": "2.0.0",
+    "xstream": "8.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-plugin-transform-async-to-generator": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "np": "^2.10.0",
+    "semistandard": "^9.1.0",
+    "shx": "^0.2.0",
+    "tape": "^4.6.2"
+  },
+  "semistandard": {
+    "ignore": [
+      "/lib/"
+    ]
+  }
+}
