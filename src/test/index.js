@@ -1,1 +1,3 @@
-import './something.js';
+import 'source-map-support/register';
+
+import './exports.js';

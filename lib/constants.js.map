@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/constants.js"],"names":["STYLETRON_GLOBAL"],"mappings":";;;;;AAAO,IAAMA,8CAAmB,eAAzB;;kBAEQ;AACbA;AADa,C","file":"constants.js","sourcesContent":["export const STYLETRON_GLOBAL = '__styletron-2';\n\nexport default {\n  STYLETRON_GLOBAL\n};\n"]}
