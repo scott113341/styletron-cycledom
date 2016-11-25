@@ -1,6 +1,6 @@
 {
   "name": "@scott113341/styletron-cycledom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Styletron wrapper for Cycle DOM.",
   "author": "Scott Hardy",
   "license": "MIT",
