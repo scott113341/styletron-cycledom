@@ -1,6 +1,7 @@
 import { h } from '@cycle/dom';
 import utils from 'styletron-utils';
 
+import { TAG_NAME, STYLES } from './constants.js';
 import initStyletron from './init-styletron.js';
 
 export default function styled (base, styles) {
